@@ -44,6 +44,8 @@ gem 'dotenv-deployment'
 gem 'capistrano'
 gem 'rubber'
 
+gem 'passenger'
+
 group :production do
   gem 'therubyracer', require: false  # Javascript compiler for server pre-compilation.
 end
