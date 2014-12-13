@@ -40,3 +40,10 @@ gem 'spring',        group: :development
 
 gem 'dotenv-rails'
 gem 'dotenv-deployment'
+
+gem 'capistrano'
+gem 'rubber'
+
+group :production do
+  gem 'therubyracer', require: false  # Javascript compiler for server pre-compilation.
+end
