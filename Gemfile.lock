@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     CFPropertyList (2.2.8)
     actionmailer (4.1.7)
@@ -225,6 +225,7 @@ DEPENDENCIES
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
+  open4
   passenger
   pg
   rails (= 4.1.7)
