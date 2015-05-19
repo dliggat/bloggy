@@ -18,3 +18,5 @@
 # Ignore dotenv file
 .env
 
+/vendor/assets/bower_components/
+

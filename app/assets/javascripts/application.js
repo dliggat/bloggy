@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require slick.js/slick/slick
+//    require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
