@@ -41,8 +41,8 @@ gem 'spring',        group: :development
 gem 'dotenv-rails'
 gem 'dotenv-deployment'
 
-gem 'capistrano'
-gem 'rubber'
+# gem 'capistrano'
+gem 'rubber', '~> 2.15.0'
 
 gem 'passenger'
 
@@ -50,3 +50,4 @@ group :production do
   gem 'therubyracer', require: false  # Javascript compiler for server pre-compilation.
 end
 gem 'open4'
+gem 'rubber'
