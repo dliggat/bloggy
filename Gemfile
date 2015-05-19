@@ -50,4 +50,3 @@ group :production do
   gem 'therubyracer', require: false  # Javascript compiler for server pre-compilation.
 end
 gem 'open4'
-gem 'rubber'
