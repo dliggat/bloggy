@@ -41,8 +41,8 @@ gem 'spring',        group: :development
 gem 'dotenv-rails'
 gem 'dotenv-deployment'
 
-gem 'capistrano'
-gem 'rubber'
+# gem 'capistrano'
+gem 'rubber', '~> 2.15.0'
 
 gem 'passenger'
 
