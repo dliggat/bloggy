@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+@import "slick.js/slick/slick";
+@import "slick.js/slick/slick-theme";
+
+body {
+  background-color: #3498db;
+  #container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
